@@ -1,0 +1,231 @@
+---
+title: sentry overview
+---
+Sentry is a platform designed for error tracking and performance monitoring. It helps developers identify, diagnose, and fix issues in their applications. Sentry provides tools to capture and record errors and performance data, offering insights to improve application reliability and speed.
+
+- <SwmLink doc-title="Api">[Api](.swm/api.r1h6s86s.sw.md)</SwmLink>
+- <SwmLink doc-title="Getting started">[Getting started](.swm/getting-started.ip6e0b2y.sw.md)</SwmLink>
+
+## Modules
+
+### Sentry Core
+
+- <SwmLink doc-title="Implementation of the event processing pipeline in sentry core">[Implementation of the event processing pipeline in sentry core](.swm/implementation-of-the-event-processing-pipeline-in-sentry-core.ws79wigg.sw.md)</SwmLink>
+- <SwmLink doc-title="Data storage and indexing strategies in sentry core">[Data storage and indexing strategies in sentry core](.swm/data-storage-and-indexing-strategies-in-sentry-core.itee4ge2.sw.md)</SwmLink>
+- <SwmLink doc-title="Basic concepts of ratelimits">[Basic concepts of ratelimits](.swm/basic-concepts-of-ratelimits.ez9jtpgf.sw.md)</SwmLink>
+- **Models**
+  - **Models**
+    - <SwmLink doc-title="Handling polymorphism in sentry models">[Handling polymorphism in sentry models](.swm/handling-polymorphism-in-sentry-models.rmdx624w.sw.md)</SwmLink>
+    - <SwmLink doc-title="Data integrity and migration management in sentry">[Data integrity and migration management in sentry](.swm/data-integrity-and-migration-management-in-sentry.qj28esdw.sw.md)</SwmLink>
+    - <SwmLink doc-title="Structure of user permissions model in sentry">[Structure of user permissions model in sentry](.swm/structure-of-user-permissions-model-in-sentry.8gr8zqgc.sw.md)</SwmLink>
+    - <SwmLink doc-title="Event data structure in sentry models">[Event data structure in sentry models](.swm/event-data-structure-in-sentry-models.3b0prqkg.sw.md)</SwmLink>
+  - **Files**
+  - **Releases**
+    - **Release Tracking**
+      - <SwmLink doc-title="Integration of release tracking with sentry components">[Integration of release tracking with sentry components](.swm/integration-of-release-tracking-with-sentry-components.colvyhe6.sw.md)</SwmLink>
+    - **Release Utilities**
+      - <SwmLink doc-title="Integration of cicd pipelines in sentrys release utilities">[Integration of cicd pipelines in sentrys release utilities](.swm/integration-of-cicd-pipelines-in-sentrys-release-utilities.tzrvdyef.sw.md)</SwmLink>
+      - <SwmLink doc-title="Chatbot integrations in sentrys release process">[Chatbot integrations in sentrys release process](.swm/chatbot-integrations-in-sentrys-release-process.lfzattyj.sw.md)</SwmLink>
+      - <SwmLink doc-title="Implementation of rollback procedures in sentrys releases">[Implementation of rollback procedures in sentrys releases](.swm/implementation-of-rollback-procedures-in-sentrys-releases.4icqgt7v.sw.md)</SwmLink>
+  - **Options**
+    - <SwmLink doc-title="What is options">[What is options](.swm/what-is-options.hhbn0h4f.sw.md)</SwmLink>
+    - <SwmLink doc-title="Understanding scope resolution in overlapping configurations in sentry options">[Understanding scope resolution in overlapping configurations in sentry options](.swm/understanding-scope-resolution-in-overlapping-configurations-in-sentry-options.zf16a77v.sw.md)</SwmLink>
+    - <SwmLink doc-title="Efficient change propagation in sentrys options system">[Efficient change propagation in sentrys options system](.swm/efficient-change-propagation-in-sentrys-options-system.fazuiat3.sw.md)</SwmLink>
+  - **Integrations**
+  - **Main Flows**
+    - <SwmLink doc-title="Avatar management flow">[Avatar management flow](.swm/avatar-management-flow.u7iclxiq.sw.md)</SwmLink>
+    - <SwmLink doc-title="File handling and blob storage process in sentry">[File handling and blob storage process in sentry](.swm/file-handling-and-blob-storage-process-in-sentry.h4xlw72a.sw.md)</SwmLink>
+    - <SwmLink doc-title="File blob management process">[File blob management process](.swm/file-blob-management-process.gecv0xkq.sw.md)</SwmLink>
+- **Tasks**
+  - <SwmLink doc-title="Outbox job scheduling and processing flow">[Outbox job scheduling and processing flow](.swm/outbox-job-scheduling-and-processing-flow.zz2iacl9.sw.md)</SwmLink>
+  - <SwmLink doc-title="Hybrid cloud deletion process">[Hybrid cloud deletion process](.swm/hybrid-cloud-deletion-process.nbo7ktfo.sw.md)</SwmLink>
+  - <SwmLink doc-title="Am2 compatibility check flow">[Am2 compatibility check flow](.swm/am2-compatibility-check-flow.deqsuda0.sw.md)</SwmLink>
+  - <SwmLink doc-title="Unmerge task flow in sentry">[Unmerge task flow in sentry](.swm/unmerge-task-flow-in-sentry.lz5motgi.sw.md)</SwmLink>
+- **Utils**
+  - **Email**
+    - <SwmLink doc-title="Email sending process">[Email sending process](.swm/email-sending-process.ul06g7i3.sw.md)</SwmLink>
+    - **Email Sending**
+      - <SwmLink doc-title="Managing email service provider and smtp server integration">[Managing email service provider and smtp server integration](.swm/managing-email-service-provider-and-smtp-server-integration.mfw8lokw.sw.md)</SwmLink>
+      - <SwmLink doc-title="Handling and customization of email templates">[Handling and customization of email templates](.swm/handling-and-customization-of-email-templates.me1v41k4.sw.md)</SwmLink>
+      - <SwmLink doc-title="Management of rate limits and queuing in email notifications">[Management of rate limits and queuing in email notifications](.swm/management-of-rate-limits-and-queuing-in-email-notifications.o966sysv.sw.md)</SwmLink>
+      - <SwmLink doc-title="Security protocols for sensitive information in email notifications">[Security protocols for sensitive information in email notifications](.swm/security-protocols-for-sensitive-information-in-email-notifications.3wjkk3yi.sw.md)</SwmLink>
+  - **Performance**
+    - **Performance Issues**
+      - <SwmLink doc-title="Flow of detecting and storing http performance issues in sentry">[Flow of detecting and storing http performance issues in sentry](.swm/flow-of-detecting-and-storing-http-performance-issues-in-sentry.z1ly5kcn.sw.md)</SwmLink>
+      - <SwmLink doc-title="Performance issue detection in db operations">[Performance issue detection in db operations](.swm/performance-issue-detection-in-db-operations.qow4hzy9.sw.md)</SwmLink>
+      - <SwmLink doc-title="Performance problem detection flow">[Performance problem detection flow](.swm/performance-problem-detection-flow.xb56hut3.sw.md)</SwmLink>
+    - **Main Flows**
+      - <SwmLink doc-title="Handling http performance issues in sentry">[Handling http performance issues in sentry](.swm/handling-http-performance-issues-in-sentry.0pofbpqf.sw.md)</SwmLink>
+      - <SwmLink doc-title="Database performance issue detection and storage flow">[Database performance issue detection and storage flow](.swm/database-performance-issue-detection-and-storage-flow.7mtggidz.sw.md)</SwmLink>
+      - <SwmLink doc-title="Performance issue detection flow">[Performance issue detection flow](.swm/performance-issue-detection-flow.dt5x9zn0.sw.md)</SwmLink>
+  - **Security**
+  - **App Store Connect**
+    - <SwmLink doc-title="Implementing secure storage for apple api keys in sentry">[Implementing secure storage for apple api keys in sentry](.swm/implementing-secure-storage-for-apple-api-keys-in-sentry.144s9k1b.sw.md)</SwmLink>
+    - <SwmLink doc-title="Handling token refresh in app store connect integration">[Handling token refresh in app store connect integration](.swm/handling-token-refresh-in-app-store-connect-integration.20r5pvka.sw.md)</SwmLink>
+    - <SwmLink doc-title="Managing error handling for apple service communication failures">[Managing error handling for apple service communication failures](.swm/managing-error-handling-for-apple-service-communication-failures.cdegiv3m.sw.md)</SwmLink>
+  - **Crash Detection**
+    - <SwmLink doc-title="Sdk crash detection flow">[Sdk crash detection flow](.swm/sdk-crash-detection-flow.xt41cwim.sw.md)</SwmLink>
+  - **Concurrency**
+  - **App Integration**
+    - <SwmLink doc-title="What is app integration">[What is app integration](.swm/what-is-app-integration.t198ccyf.sw.md)</SwmLink>
+    - <SwmLink doc-title="Understanding app integration">[Understanding app integration](.swm/understanding-app-integration.gynq9wlx.sw.md)</SwmLink>
+  - **Build and Deployment**
+    - <SwmLink doc-title="Understanding sentrys build automation process">[Understanding sentrys build automation process](.swm/understanding-sentrys-build-automation-process.rl2qo8md.sw.md)</SwmLink>
+    - <SwmLink doc-title="Tools used in sentrys build automation">[Tools used in sentrys build automation](.swm/tools-used-in-sentrys-build-automation.g6m6apur.sw.md)</SwmLink>
+    - <SwmLink doc-title="Configuring cicd pipelines in sentry">[Configuring cicd pipelines in sentry](.swm/configuring-cicd-pipelines-in-sentry.libzjvn4.sw.md)</SwmLink>
+    - <SwmLink doc-title="Dependency management in sentry builds">[Dependency management in sentry builds](.swm/dependency-management-in-sentry-builds.ql1h2241.sw.md)</SwmLink>
+    - **Sentry Utils**
+      - <SwmLink doc-title="Workflow of aliased_query in snuba data queries">[Workflow of aliased_query in snuba data queries](.swm/workflow-of-aliased_query-in-snuba-data-queries.7nfl5mtk.sw.md)</SwmLink>
+      - <SwmLink doc-title="Handling failed relocation tasks in sentry">[Handling failed relocation tasks in sentry](.swm/handling-failed-relocation-tasks-in-sentry.5mmuwosm.sw.md)</SwmLink>
+      - <SwmLink doc-title="Team deletion audit process">[Team deletion audit process](.swm/team-deletion-audit-process.f8e1t9y8.sw.md)</SwmLink>
+      - <SwmLink doc-title="Consecutive http performance issue detection and storage">[Consecutive http performance issue detection and storage](.swm/consecutive-http-performance-issue-detection-and-storage.pog8gla5.sw.md)</SwmLink>
+- **Integrations**
+  - **Version Control Systems**
+    - <SwmLink doc-title="Introduction to github">[Introduction to github](.swm/introduction-to-github.tqjbqerg.sw.md)</SwmLink>
+    - <SwmLink doc-title="Vsts 101">[Vsts 101](.swm/vsts-101.1yezyq8v.sw.md)</SwmLink>
+    - <SwmLink doc-title="Commit comparison flow in bitbucket server integration">[Commit comparison flow in bitbucket server integration](.swm/commit-comparison-flow-in-bitbucket-server-integration.8i3atxl2.sw.md)</SwmLink>
+    - **Bitbucket**
+      - <SwmLink doc-title="Understanding oauth authentication in bitbucket integration">[Understanding oauth authentication in bitbucket integration](.swm/understanding-oauth-authentication-in-bitbucket-integration.icsjjjx7.sw.md)</SwmLink>
+      - <SwmLink doc-title="Management of webhooks in bitbucket integration">[Management of webhooks in bitbucket integration](.swm/management-of-webhooks-in-bitbucket-integration.1d0pineh.sw.md)</SwmLink>
+      - <SwmLink doc-title="Error handling strategies in bitbucket integration">[Error handling strategies in bitbucket integration](.swm/error-handling-strategies-in-bitbucket-integration.ey6dhd9e.sw.md)</SwmLink>
+  - **Notification Systems**
+    - <SwmLink doc-title="Basic concepts of integrations">[Basic concepts of integrations](.swm/basic-concepts-of-integrations.bfrno8d5.sw.md)</SwmLink>
+  - **Main Flows**
+    - <SwmLink doc-title="Vsts search to discord notification flow in sentry">[Vsts search to discord notification flow in sentry](.swm/vsts-search-to-discord-notification-flow-in-sentry.9nugju76.sw.md)</SwmLink>
+    - <SwmLink doc-title="Handling ms teams conversation update events in sentry">[Handling ms teams conversation update events in sentry](.swm/handling-ms-teams-conversation-update-events-in-sentry.4jfw2tky.sw.md)</SwmLink>
+    - <SwmLink doc-title="Handling message events in microsoft teams integration">[Handling message events in microsoft teams integration](.swm/handling-message-events-in-microsoft-teams-integration.3sodhgsa.sw.md)</SwmLink>
+    - <SwmLink doc-title="Activity notification flow to slack threads">[Activity notification flow to slack threads](.swm/activity-notification-flow-to-slack-threads.6jj04q95.sw.md)</SwmLink>
+- **Migrations**
+  - **Data Transformation**
+    - **Data Transformation**
+      - <SwmLink doc-title="Understanding real time data transformation in sentry">[Understanding real time data transformation in sentry](.swm/understanding-real-time-data-transformation-in-sentry.i8o1m0nc.sw.md)</SwmLink>
+      - <SwmLink doc-title="Methods for handling data schema changes in sentrys data transformation component">[Methods for handling data schema changes in sentrys data transformation component](.swm/methods-for-handling-data-schema-changes-in-sentrys-data-transformation-component.dw2u0wyk.sw.md)</SwmLink>
+    - **Monitors**
+      - <SwmLink doc-title="Handling monitoring failures in sentry">[Handling monitoring failures in sentry](.swm/handling-monitoring-failures-in-sentry.t33iv44h.sw.md)</SwmLink>
+      - <SwmLink doc-title="Monitor update and alert rule management flow">[Monitor update and alert rule management flow](.swm/monitor-update-and-alert-rule-management-flow.tgux2993.sw.md)</SwmLink>
+      - <SwmLink doc-title="Update check in timeout flow">[Update check in timeout flow](.swm/update-check-in-timeout-flow.evng3unt.sw.md)</SwmLink>
+    - **Dashboards**
+      - <SwmLink doc-title="Optimizing data querying for large datasets in sentry dashboards">[Optimizing data querying for large datasets in sentry dashboards](.swm/optimizing-data-querying-for-large-datasets-in-sentry-dashboards.2nauauru.sw.md)</SwmLink>
+      - <SwmLink doc-title="Extensibility features for sentry dashboards">[Extensibility features for sentry dashboards](.swm/extensibility-features-for-sentry-dashboards.qfzbo1py.sw.md)</SwmLink>
+  - **System Updates**
+    - **System Updates**
+      - <SwmLink doc-title="Strategies for rolling out updates with minimal downtime in sentry">[Strategies for rolling out updates with minimal downtime in sentry](.swm/strategies-for-rolling-out-updates-with-minimal-downtime-in-sentry.7w8d9u81.sw.md)</SwmLink>
+      - <SwmLink doc-title="Handling schema migrations in production for sentry">[Handling schema migrations in production for sentry](.swm/handling-schema-migrations-in-production-for-sentry.ydfcjava.sw.md)</SwmLink>
+      - <SwmLink doc-title="Ensuring backward compatibility during system updates in sentry">[Ensuring backward compatibility during system updates in sentry](.swm/ensuring-backward-compatibility-during-system-updates-in-sentry.hih3i42o.sw.md)</SwmLink>
+      - <SwmLink doc-title="Integration of system updates with sentry infrastructure">[Integration of system updates with sentry infrastructure](.swm/integration-of-system-updates-with-sentry-infrastructure.w61d51ma.sw.md)</SwmLink>
+    - **Notifications**
+      - <SwmLink doc-title="Managing notification preferences in sentry">[Managing notification preferences in sentry](.swm/managing-notification-preferences-in-sentry.oasq21du.sw.md)</SwmLink>
+      - <SwmLink doc-title="Integrations available for notifications in sentry">[Integrations available for notifications in sentry](.swm/integrations-available-for-notifications-in-sentry.ixs9ji9c.sw.md)</SwmLink>
+      - <SwmLink doc-title="Ensuring timely delivery of notifications in sentry">[Ensuring timely delivery of notifications in sentry](.swm/ensuring-timely-delivery-of-notifications-in-sentry.5uwgrdpf.sw.md)</SwmLink>
+      - <SwmLink doc-title="Scalability of the notification system in sentry">[Scalability of the notification system in sentry](.swm/scalability-of-the-notification-system-in-sentry.wyp6rnzw.sw.md)</SwmLink>
+    - **Monitors**
+      - <SwmLink doc-title="Structuring monitors for real time data processing">[Structuring monitors for real time data processing](.swm/structuring-monitors-for-real-time-data-processing.sd4qophx.sw.md)</SwmLink>
+      - <SwmLink doc-title="Scaling techniques in monitors">[Scaling techniques in monitors](.swm/scaling-techniques-in-monitors.v8k7wvlj.sw.md)</SwmLink>
+    - **Authentication**
+      - <SwmLink doc-title="Understanding token based authentication implementation in sentry">[Understanding token based authentication implementation in sentry](.swm/understanding-token-based-authentication-implementation-in-sentry.bzwo3ugf.sw.md)</SwmLink>
+      - <SwmLink doc-title="Integrating external authentication services in sentry">[Integrating external authentication services in sentry](.swm/integrating-external-authentication-services-in-sentry.mjmo5fnm.sw.md)</SwmLink>
+      - <SwmLink doc-title="Session management implementation in sentry">[Session management implementation in sentry](.swm/session-management-implementation-in-sentry.58hllqpu.sw.md)</SwmLink>
+      - <SwmLink doc-title="Security measures against csrf and xss in authentication">[Security measures against csrf and xss in authentication](.swm/security-measures-against-csrf-and-xss-in-authentication.rqpd0km7.sw.md)</SwmLink>
+    - **API Tokens**
+      - <SwmLink doc-title="Generation and security measures of api tokens in sentry">[Generation and security measures of api tokens in sentry](.swm/generation-and-security-measures-of-api-tokens-in-sentry.cr9htttu.sw.md)</SwmLink>
+      - <SwmLink doc-title="Expiration and renewal policies for api tokens in sentry">[Expiration and renewal policies for api tokens in sentry](.swm/expiration-and-renewal-policies-for-api-tokens-in-sentry.ojoj0gcs.sw.md)</SwmLink>
+      - <SwmLink doc-title="Managing and validating permissions using api tokens in sentry">[Managing and validating permissions using api tokens in sentry](.swm/managing-and-validating-permissions-using-api-tokens-in-sentry.t9qxp2zj.sw.md)</SwmLink>
+- **Hybrid Cloud**
+  - <SwmLink doc-title="Data synchronization in hybrid cloud environments">[Data synchronization in hybrid cloud environments](.swm/data-synchronization-in-hybrid-cloud-environments.g8t9y8z0.sw.md)</SwmLink>
+  - <SwmLink doc-title="Security measures in hybrid cloud models">[Security measures in hybrid cloud models](.swm/security-measures-in-hybrid-cloud-models.e0n0coph.sw.md)</SwmLink>
+  - <SwmLink doc-title="Handling network latency and reliability in hybrid cloud environments">[Handling network latency and reliability in hybrid cloud environments](.swm/handling-network-latency-and-reliability-in-hybrid-cloud-environments.7x6c27h8.sw.md)</SwmLink>
+  - <SwmLink doc-title="Service configuration and deployment across different environments in sentry">[Service configuration and deployment across different environments in sentry](.swm/service-configuration-and-deployment-across-different-environments-in-sentry.s3d49cbz.sw.md)</SwmLink>
+  - <SwmLink doc-title="What is organization">[What is organization](.swm/what-is-organization.17afx7of.sw.md)</SwmLink>
+  - <SwmLink doc-title="Getting started with project">[Getting started with project](.swm/getting-started-with-project.nx1h21n8.sw.md)</SwmLink>
+  - **User**
+    - <SwmLink doc-title="User retrieval and serialization process">[User retrieval and serialization process](.swm/user-retrieval-and-serialization-process.ndgf2rl0.sw.md)</SwmLink>
+- **Organization**
+- **Event Handling**
+  - <SwmLink doc-title="Kafka event processing flow in sentry">[Kafka event processing flow in sentry](.swm/kafka-event-processing-flow-in-sentry.2phpr4j8.sw.md)</SwmLink>
+- **Middleware**
+  - <SwmLink doc-title="Handling gitlab webhook requests">[Handling gitlab webhook requests](.swm/handling-gitlab-webhook-requests.0f7nehjf.sw.md)</SwmLink>
+  - <SwmLink doc-title="Jira server webhook response handling">[Jira server webhook response handling](.swm/jira-server-webhook-response-handling.0p41uvcg.sw.md)</SwmLink>
+  - <SwmLink doc-title="Handling discord integration responses">[Handling discord integration responses](.swm/handling-discord-integration-responses.igcnop9i.sw.md)</SwmLink>
+- **Backups**
+  - <SwmLink doc-title="Backup validation process">[Backup validation process](.swm/backup-validation-process.y09eliqt.sw.md)</SwmLink>
+  - <SwmLink doc-title="Global data import flow in sentrys backup system">[Global data import flow in sentrys backup system](.swm/global-data-import-flow-in-sentrys-backup-system.mzs77ny7.sw.md)</SwmLink>
+  - <SwmLink doc-title="Understanding automatic backup triggers in sentry">[Understanding automatic backup triggers in sentry](.swm/understanding-automatic-backup-triggers-in-sentry.f2s04dc8.sw.md)</SwmLink>
+  - <SwmLink doc-title="Exploring data serialization formats in sentry backups">[Exploring data serialization formats in sentry backups](.swm/exploring-data-serialization-formats-in-sentry-backups.y0udqs0j.sw.md)</SwmLink>
+  - <SwmLink doc-title="Cloud storage integration for sentry backups">[Cloud storage integration for sentry backups](.swm/cloud-storage-integration-for-sentry-backups.1xu7zyzn.sw.md)</SwmLink>
+- **Main Flows**
+  - <SwmLink doc-title="Notification sending process">[Notification sending process](.swm/notification-sending-process.ruxuy1or.sw.md)</SwmLink>
+  - <SwmLink doc-title="Notification digest sending process">[Notification digest sending process](.swm/notification-digest-sending-process.zbdes8vc.sw.md)</SwmLink>
+  - <SwmLink doc-title="Notification sending process">[Notification sending process](.swm/notification-sending-process.fk3w5f2w.sw.md)</SwmLink>
+  - <SwmLink doc-title="Vsts work item synchronization">[Vsts work item synchronization](.swm/vsts-work-item-synchronization.9u64qibf.sw.md)</SwmLink>
+  - <SwmLink doc-title="Function change point detection flow">[Function change point detection flow](.swm/function-change-point-detection-flow.ub1o7t7c.sw.md)</SwmLink>
+  - <SwmLink doc-title="Slack notification flow for sentry activities">[Slack notification flow for sentry activities](.swm/slack-notification-flow-for-sentry-activities.scq2j9uw.sw.md)</SwmLink>
+  - <SwmLink doc-title="Notification sending process">[Notification sending process](.swm/notification-sending-process.c6qdkokd.sw.md)</SwmLink>
+
+### Integrations
+
+- <SwmLink doc-title="Basic concepts of bitbucket">[Basic concepts of bitbucket](.swm/basic-concepts-of-bitbucket.7qsbrko4.sw.md)</SwmLink>
+- <SwmLink doc-title="Overview of vsts">[Overview of vsts](.swm/overview-of-vsts.wjedxjws.sw.md)</SwmLink>
+- <SwmLink doc-title="Pagerduty 101">[Pagerduty 101](.swm/pagerduty-101.dj00smiu.sw.md)</SwmLink>
+- <SwmLink doc-title="Github 101">[Github 101](.swm/github-101.2xd6k3je.sw.md)</SwmLink>
+- <SwmLink doc-title="Basic concepts of gitlab">[Basic concepts of gitlab](.swm/basic-concepts-of-gitlab.ic50cdyl.sw.md)</SwmLink>
+- **AWS Lambda**
+  - <SwmLink doc-title="Aws lambda function update process in sentry">[Aws lambda function update process in sentry](.swm/aws-lambda-function-update-process-in-sentry.ntsrh0n4.sw.md)</SwmLink>
+  - <SwmLink doc-title="Performance monitoring mechanisms in aws lambda sentry integration">[Performance monitoring mechanisms in aws lambda sentry integration](.swm/performance-monitoring-mechanisms-in-aws-lambda-sentry-integration.dslcsec0.sw.md)</SwmLink>
+  - <SwmLink doc-title="Setup guide for sentry aws lambda integration">[Setup guide for sentry aws lambda integration](.swm/setup-guide-for-sentry-aws-lambda-integration.3n8rjmna.sw.md)</SwmLink>
+  - <SwmLink doc-title="Data security and privacy in aws lambda sentry integration">[Data security and privacy in aws lambda sentry integration](.swm/data-security-and-privacy-in-aws-lambda-sentry-integration.3js9a4x2.sw.md)</SwmLink>
+- **Jira Server**
+  - <SwmLink doc-title="Jira server integration webhook flow">[Jira server integration webhook flow](.swm/jira-server-integration-webhook-flow.x45wrqkd.sw.md)</SwmLink>
+  - <SwmLink doc-title="Jira server integration for user data retrieval">[Jira server integration for user data retrieval](.swm/jira-server-integration-for-user-data-retrieval.ec3qrer0.sw.md)</SwmLink>
+- **Slack**
+  - <SwmLink doc-title="Activity notification flow to slack threads">[Activity notification flow to slack threads](.swm/activity-notification-flow-to-slack-threads.vba0rrk6.sw.md)</SwmLink>
+  - <SwmLink doc-title="Unlinking team in slack integration flow">[Unlinking team in slack integration flow](.swm/unlinking-team-in-slack-integration-flow.so55updd.sw.md)</SwmLink>
+  - <SwmLink doc-title="Building slack message actions for issues in sentry">[Building slack message actions for issues in sentry](.swm/building-slack-message-actions-for-issues-in-sentry.9r4vck9c.sw.md)</SwmLink>
+- **MS Teams**
+  - <SwmLink doc-title="Getting started with ms teams">[Getting started with ms teams](.swm/getting-started-with-ms-teams.ba8tiobk.sw.md)</SwmLink>
+  - <SwmLink doc-title="Handling ms teams conversation update events in sentry">[Handling ms teams conversation update events in sentry](.swm/handling-ms-teams-conversation-update-events-in-sentry.4luwc8qj.sw.md)</SwmLink>
+  - <SwmLink doc-title="Ms teams integration message event handling">[Ms teams integration message event handling](.swm/ms-teams-integration-message-event-handling.al5oby5s.sw.md)</SwmLink>
+  - <SwmLink doc-title="Microsoft teams notification flow in sentry">[Microsoft teams notification flow in sentry](.swm/microsoft-teams-notification-flow-in-sentry.dgqqcwha.sw.md)</SwmLink>
+- **OpsGenie**
+  - <SwmLink doc-title="Opsgenie alert notification flow">[Opsgenie alert notification flow](.swm/opsgenie-alert-notification-flow.4ehh34ab.sw.md)</SwmLink>
+- **Vercel**
+  - <SwmLink doc-title="What is vercel">[What is vercel](.swm/what-is-vercel.0mwv0lsn.sw.md)</SwmLink>
+  - <SwmLink doc-title="Vercel environment configuration flow">[Vercel environment configuration flow](.swm/vercel-environment-configuration-flow.9971npv4.sw.md)</SwmLink>
+- **Bitbucket Server**
+  - <SwmLink doc-title="Mapping sentry issues to bitbucket server commits and branches">[Mapping sentry issues to bitbucket server commits and branches](.swm/mapping-sentry-issues-to-bitbucket-server-commits-and-branches.gl1yex0p.sw.md)</SwmLink>
+  - <SwmLink doc-title="Managing notifications and updates in sentry bitbucket server integration">[Managing notifications and updates in sentry bitbucket server integration](.swm/managing-notifications-and-updates-in-sentry-bitbucket-server-integration.w6m5c6ce.sw.md)</SwmLink>
+- **Discord**
+  - <SwmLink doc-title="Introduction to discord">[Introduction to discord](.swm/introduction-to-discord.gv4wmp0h.sw.md)</SwmLink>
+  - <SwmLink doc-title="Discord integration authentication flow">[Discord integration authentication flow](.swm/discord-integration-authentication-flow.v2oekqei.sw.md)</SwmLink>
+  - <SwmLink doc-title="Handling discord webhook messages">[Handling discord webhook messages](.swm/handling-discord-webhook-messages.j1r27aba.sw.md)</SwmLink>
+- **Main Flows**
+  - <SwmLink doc-title="Building slack message actions for sentry issues">[Building slack message actions for sentry issues](.swm/building-slack-message-actions-for-sentry-issues.szjfe4on.sw.md)</SwmLink>
+  - <SwmLink doc-title="Commit comparison process in bitbucket server integration">[Commit comparison process in bitbucket server integration](.swm/commit-comparison-process-in-bitbucket-server-integration.1fyp0wsw.sw.md)</SwmLink>
+  - <SwmLink doc-title="Opsgenie integration validation and authorization flow">[Opsgenie integration validation and authorization flow](.swm/opsgenie-integration-validation-and-authorization-flow.1xlrvbrd.sw.md)</SwmLink>
+  - <SwmLink doc-title="Jira server webhook integration flow">[Jira server webhook integration flow](.swm/jira-server-webhook-integration-flow.dvlw3ej6.sw.md)</SwmLink>
+
+### Main Flows
+
+- <SwmLink doc-title="Github integration authorization request flow">[Github integration authorization request flow](.swm/github-integration-authorization-request-flow.d0dsoozy.sw.md)</SwmLink>
+- <SwmLink doc-title="Github commit comparison process">[Github commit comparison process](.swm/github-commit-comparison-process.71diyelg.sw.md)</SwmLink>
+- <SwmLink doc-title="Managing github repository trees in sentry">[Managing github repository trees in sentry](.swm/managing-github-repository-trees-in-sentry.4b7y6708.sw.md)</SwmLink>
+- <SwmLink doc-title="Jira outbound status synchronization flow">[Jira outbound status synchronization flow](.swm/jira-outbound-status-synchronization-flow.1gkb7u0m.sw.md)</SwmLink>
+- <SwmLink doc-title="Jira integration user query flow in sentry">[Jira integration user query flow in sentry](.swm/jira-integration-user-query-flow-in-sentry.3svjxxdv.sw.md)</SwmLink>
+- <SwmLink doc-title="Configuring jira issue creation in sentry">[Configuring jira issue creation in sentry](.swm/configuring-jira-issue-creation-in-sentry.n0eih818.sw.md)</SwmLink>
+- <SwmLink doc-title="Flow of issue configuration without group in vsts integration">[Flow of issue configuration without group in vsts integration](.swm/flow-of-issue-configuration-without-group-in-vsts-integration.9qleps7m.sw.md)</SwmLink>
+- <SwmLink doc-title="Handling vsts integration updates in sentry">[Handling vsts integration updates in sentry](.swm/handling-vsts-integration-updates-in-sentry.qzjf991r.sw.md)</SwmLink>
+- <SwmLink doc-title="Flow of comparing commits in bitbucket server integration">[Flow of comparing commits in bitbucket server integration](.swm/flow-of-comparing-commits-in-bitbucket-server-integration.9u706hos.sw.md)</SwmLink>
+- <SwmLink doc-title="Makefile usage in project management">[Makefile usage in project management](.swm/makefile-usage-in-project-management.fsrl782m.sw.md)</SwmLink>
+
+## Classes
+
+- <SwmLink doc-title="View">[View](.swm/view.knwys.sw.md)</SwmLink>
+- <SwmLink doc-title="Model">[Model](.swm/model.o1m9e.sw.md)</SwmLink>
+- <SwmLink doc-title="Exception class overview">[Exception class overview](.swm/exception-class-overview.ybooq.sw.md)</SwmLink>
+- <SwmLink doc-title="Serializer">[Serializer](.swm/serializer.jpzl7.sw.md)</SwmLink>
+- <SwmLink doc-title="Projectendpoint overview">[Projectendpoint overview](.swm/projectendpoint-overview.i5c60.sw.md)</SwmLink>
+
+&nbsp;
+
+*This is an auto-generated document by Swimm AI 🌊 and has not yet been verified by a human*
+
+<SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBc2VudHJ5JTNBJTNBZ2V0c2VudHJ5" repo-name="sentry"><sup>Powered by [Swimm](/)</sup></SwmMeta>
